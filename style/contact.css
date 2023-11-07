@@ -1,12 +1,12 @@
 #contact {
-    background: #BCA37F;
+    background: var(--clr-light);
     
     height: 50vh;
 }
 
 .contact {
     text-align: center;
-    color: #113946;
+    color: var(--clr-dark);
 
 }
 

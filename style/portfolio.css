@@ -1,5 +1,5 @@
 #portfolio {
-    background: #EAD7BB;
+    background: var(--clr-light);
     padding-top: 3rem;
 }
 

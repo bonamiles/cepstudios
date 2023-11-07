@@ -12,13 +12,17 @@
 
 .nav-bar {
     display: flex;
+    padding: 1.5rem;
     justify-content: flex-end;
+    align-items: center;
 }
 .header-bar {
+    
     display: block;
     width: var(--size-xl);
     height: var(--size-xl);
-    color: var(--clr-light);
+    color: var(--clr-slate600);
+    z-index:1;
 }
 
 /* Slider Section */
@@ -40,7 +44,7 @@
 }
 
 .slider-mobile {
-    height: 85vh;
+    height: calc(100vh - 5rem);
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -85,7 +89,6 @@
     }
     .main-nav {
     display: flex;
-    padding: 2em;
 }
 
 .nav-uls {
@@ -112,7 +115,7 @@
     border: 1px solid var(--clr-light);
     padding: 0.7em 0;
 }
-.darkmode_btn {
+.darkmode-btn {
     display: block;
     width: var(--size-xl);
     color: var(--clr-light);

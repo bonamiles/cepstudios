@@ -24,6 +24,12 @@
     padding-right: 0.5rem;
 }
 
+.separator {
+    color: var(--clr-slate600);
+    width: 40%;
+    margin: 0 auto;
+}
+
 .section {
     margin-top: 5rem;
 }

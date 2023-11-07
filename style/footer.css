@@ -3,6 +3,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: end;
-    background-color: #113946;
+    background-color: var(--clr-dark);
     color: var(--clr-slate400);
 }
